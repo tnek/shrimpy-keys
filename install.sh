@@ -32,6 +32,10 @@ if [ -f "$SCRIPT_DIR/README.md" ]; then
   install_file "$SCRIPT_DIR/README.md" "$INSTALL_DIR/README.md"
 fi
 
+if [ -f "$SCRIPT_DIR/preview.png" ]; then
+  install_file "$SCRIPT_DIR/preview.png" "$INSTALL_DIR/preview.png"
+fi
+
 if [ -f "$SCRIPT_DIR/preview.gif" ]; then
   install_file "$SCRIPT_DIR/preview.gif" "$INSTALL_DIR/preview.gif"
 fi

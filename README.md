@@ -4,11 +4,12 @@ Shrimpy Keys is a bright red pixel shrimp with black-rimmed glasses and a tiny k
 
 ## Preview
 
-![Shrimpy Keys animated preview](preview.gif)
+![Shrimpy Keys animated preview](preview.png)
 
 This package includes the complete pet atlas:
 
-- `preview.gif` - animated README preview generated from the actual pet spritesheet
+- `preview.png` - animated PNG preview generated from the actual pet spritesheet
+- `preview.gif` - fallback animated GIF preview
 - `spritesheet.webp` - Codex pet spritesheet
 - `pet.json` - Codex pet manifest
 - `install.sh` - installer for copying the pet into Codex's pet directory
@@ -67,6 +68,7 @@ After installation, the Codex pet folder contains:
 ```text
 pet.json
 spritesheet.webp
+preview.png
 preview.gif
 README.md
 install.sh
