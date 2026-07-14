@@ -1,0 +1,76 @@
+{
+  "id": "shrimpy-keys",
+  "displayName": "Shrimpy Keys",
+  "shortDescription": "A bright red pixel shrimp with black-rimmed glasses typing on a tiny keyboard.",
+  "longDescription": "Shrimpy Keys is a compact pixel-art coding companion: a bright red shrimp in black-rimmed glasses, typing away on a tiny keyboard. The pet includes standard Codex animation states and v2 look-direction support for all 16 gaze directions.",
+  "publicationTitle": "Shrimpy Keys",
+  "publicationSubtitle": "A tiny shrimp coder with glasses, a keyboard, and very serious typing energy.",
+  "tags": [
+    "codex-pet",
+    "v2",
+    "pixel-art",
+    "shrimp",
+    "keyboard",
+    "glasses",
+    "coding-companion"
+  ],
+  "category": "pet",
+  "style": "pixel-art",
+  "personality": [
+    "focused",
+    "friendly",
+    "playful",
+    "curious"
+  ],
+  "visualTraits": [
+    "bright red shrimp body",
+    "black-rimmed glasses",
+    "tiny keyboard",
+    "curled antennae",
+    "compact readable silhouette"
+  ],
+  "package": {
+    "manifest": "pet.json",
+    "spritesheet": "spritesheet.webp",
+    "spriteVersionNumber": 2,
+    "spritesheetPath": "spritesheet.webp",
+    "atlas": {
+      "width": 1536,
+      "height": 2288,
+      "columns": 8,
+      "rows": 11,
+      "cellWidth": 192,
+      "cellHeight": 208
+    }
+  },
+  "animationRows": [
+    "idle",
+    "running-right",
+    "running-left",
+    "waving",
+    "jumping",
+    "failed",
+    "waiting",
+    "running",
+    "review",
+    "look-000-through-157.5",
+    "look-180-through-337.5"
+  ],
+  "samplePrompts": [
+    "Use Shrimpy Keys as a cheerful coding companion for a developer workspace.",
+    "Show Shrimpy Keys waiting for approval with an expectant keyboard-ready pose.",
+    "Use Shrimpy Keys as a playful mascot for debugging, review, and focused build sessions."
+  ],
+  "listingCopy": {
+    "oneLine": "A pixel shrimp coder with glasses, a tiny keyboard, and 16-direction v2 gaze support.",
+    "short": "Shrimpy Keys brings tiny crustacean coding energy to Codex, complete with glasses, keyboard animations, and v2 look directions.",
+    "long": "Shrimpy Keys is a bright red pixel shrimp built for developer companionship. It types, waits, waves, reviews, reacts to failures, and looks around using the Codex v2 16-direction gaze rows while keeping its chunky glasses and tiny keyboard identity intact."
+  },
+  "compatibility": {
+    "codexPetFormat": "v2",
+    "requiresSpriteVersionNumber": 2,
+    "transparentBackground": true
+  },
+  "license": "Add publication license before distribution.",
+  "credits": "Created with Codex hatch-pet workflow."
+}
